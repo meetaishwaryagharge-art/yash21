@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Our Services — Financial Consulting</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+    /* Font Setup */
+    body {
+        font-family: 'Open Sans', Arial, sans-serif;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Montserrat', Arial, sans-serif;
+    }
+
+   
+    /* HEADER */
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:10;
+    padding:15px 0;
+    background:#ffffff;            /* WHITE HEADER */
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+header ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+    margin:0;
+    padding:0;
+}
+
+header ul li a{
+    color:#333;                    /* DARK TEXT */
+    text-decoration:none;
+    font-size:15px;
+    font-weight:600;
+    transition:color 0.3s;
+    font-family:'Open Sans', Arial, sans-serif;
+}
+
+header ul li a:hover{
+    color:#3b58a4;                 /* BRAND GREEN */
+}
+
+    /* HERO */
+    .hero{
+        height:700px;
+        background:url("https://www.pnc.com/content/dam/pnc-thought-leadership/small-business/industry-insights/pnc_insights_sb_5-ways-professional-services-organizations-changed-2023.jpg") center/cover no-repeat;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+        position:relative;
+    }
+    .hero::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,0.5);}
+    .hero h1{position:relative;color:white;font-size:42px;}
+    .hero p{position:relative;color:#ffff;font-size:18px;margin-top:8px;}
+
+    .container{max-width:1150px;margin:auto;padding:60px 20px;}
+
+    .section-title{text-align:center;color:#3b58a4;font-size:32px;margin-bottom:20px;}
+    
+    .services-grid, .insurance-grid{display:flex;flex-wrap:wrap;gap:40px;justify-content:center;}
+    
+    .service-card, .insurance-card{background:#ffff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);width:300px;overflow:hidden;text-align:center;padding:0;}
+    
+    .service-card img{width:100%;height:200px;object-fit:cover;}
+    
+    .service-card h3, .insurance-card h3{font-size:22px;color:#3b58a4;margin:15px 0 10px 0;}
+    .service-card p, .insurance-card p{margin:0 15px 15px;color:#555;font-size:15px;}
+
+   /* WHY US SECTION 
+    .why-grid{display:flex;flex-wrap:wrap;gap:40px;justify-content:center;margin-top:40px;}*/
+    .why-item{flex:1;min-width:220px;text-align:center;padding:20px;}
+    .why-item h4{font-size:20px;color:#3b58a4;margin-bottom:10px;}
+    .why-item p{color:#555;font-size:14px;}
+
+    
+.eligibility-section {
+    padding: 60px 40px;
+}
+/* Left side */
+.left-content {
+    flex: 1;
+}
+
+.left-content h1 {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+/* Right side */
+.right-content {
+    flex: 1.3;
+}
+
+.intro {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.criteria-list {
+    list-style: none;
+}
+
+.criteria-list li {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.criteria-list span {
+    color: #000;
+    font-size: 18px;
+}
+
+.criteria-list strong {
+    font-weight: 600;
+}
+
+.eligibility-link {
+    display: inline-block;
+    margin-top: 25px;
+    color: #1a5fd1;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.eligibility-link:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-content h1 {
+        font-size: 34px;
+    }
+}
+
+
+
+
+
+    /* FOOTER */
+    footer{background:#333;color:#fff;text-align:center;padding:20px;font-size:14px;}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <nav style="max-width:1150px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:0 20px;">
+        <div style="color:#fff;font-weight:bold;font-size:22px;font-family:'Montserrat', Arial, sans-serif;"><img src="https://images.jdmagicbox.com/v2/comp/mumbai/w3/022pxx22.xx22.170330120028.n6w3/catalogue/yash-finance-solutions-borivali-east-mumbai-home-loans-BZmFaPSb7u-250.jpg" style="height:150px; width:auto; object-fit:contain;"
+            alt="Logo"></div></div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			 <li><a href="aboutus.html">About Us</a></li>
+             <li><a href="services.html">Services</a></li>
+            <li><a href="cases.html">Our Cases</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <h1>Comprehensive Financial Products Tailored for You</h1>
+        <p>Explore a wide range of loan services designed to empower individuals and businesses to achieve their financial aspirations with confidence.</p>
+    </div>
+</section>
+
+<!-- LOAN PRODUCTS -->
+<section class="container">
+    <div class="section-title">Loan Products Section</div>
+    <div class="services-grid">
+        <div class="service-card">
+            <img src="https://easyhomefinance.in/knowledge-hub/wp-content/uploads/2025/07/loan-buy-house-pressure-buy-house.jpg" alt="">
+            <h3>Home Loans</h3>
+            <p>Flexible duration and EMI planning for buying, constructing, or renovating your house.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://bfsi.eletsonline.com/wp-content/uploads/2023/01/Business-Loan.jpg" alt="">
+            <h3>Business Loans</h3>
+            <p>Capital support to grow your business, expand operations, or launch new products.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://www.rupeecircle.com/client-assets/images/loan-type/education-loan.jpg" alt="">
+            <h3>Education Loans</h3>
+            <p>Low EMI options to support higher education aspirations in India and abroad.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2025/4/505826543/JZ/MW/DG/68984947/commercial-car-vehicle-finance.png" alt="">
+            <h3>Premium Car & Commercial Vehicle Loans</h3>
+            <p>Financing options for new and used vehicles under competitive terms.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://www.dhyeyaias.com/storage/media/je9vpJo9WikdEeZzuA1yB1aFtbE8J5xJ09p6Ecxs.jpg" alt="">
+            <h3>Gold Loans</h3>
+            <p>Quick, collateral-based funding secured against gold.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://i0.wp.com/bankkeeping.com/wp-content/uploads/2025/05/CC-OD-DOD.jpg?fit=530%2C530&ssl=1" alt="">
+            <h3>OD / DOD Facilities</h3>
+            <p>Access flexible credit lines with fixed or gradually reducing limits to manage daily cash flow.</p>
+        </div>
+        <div class="service-card">
+            <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg" alt="">
+            <h3>Specialized Funding</h3>
+            <p>Access CGTMSE/MSME schemes, HUNDI finance, and specialized project or construction finance.</p>
+        </div>
+    </div>
+</section>
+
+<!-- INSURANCE PRODUCTS -->
+<section class="container">
+    <div class="section-title">Insurance Products</div>
+    <div class="insurance-grid">
+        <div class="insurance-card">
+            <h3>Life Insurance</h3>
+            <p>Financial protection to secure your family’s future and provide peace of mind.</p>
+        </div>
+        <div class="insurance-card">
+            <h3>Health Insurance</h3>
+            <p>Comprehensive coverage for medical bills, hospitalisation, and emergencies.</p>
+        </div>
+        <div class="insurance-card">
+            <h3>General Insurance</h3>
+            <p>Protect assets, vehicles, businesses, and travel plans against unforeseen risks.</p>
+        </div>
+    </div>
+</section>
+
+<!-- WHY OUR SERVICES MATTER -->
+<section class=" container">
+    <div class="section-title">Why Our Services Matter</div>
+    <div class="insurance-grid">
+         <div class="insurance-card">
+            <h4>Proven Track Record</h4>
+            <p>We have successfully processed thousands of applications with a strong commitment to high approval rates.</p>
+        </div>
+        <div class="insurance-card">
+            <h4>A Trusted Bridge</h4>
+            <p>We act as your dedicated link to top-tier financial institutions, simplifying complex access to capital.</p>
+        </div>
+        <div class="insurance-card">
+            <h4>Strong Industry Network</h4>
+            <p>Leverage our established relationships with leading banks and NBFCs to secure the best market options.</p>
+        </div>
+        <div class="why-item">
+            <h4>End-to-End Excellence</h4>
+            <p>From first consultation to post-disbursal support, we ensure a seamless, hassle-free journey.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+    
+<section  class="container">
+
+<div class="section-title">How It Work</div>
+        <!-- Left Content -->
+        <div class="left-content">
+            <h2>Our Seamless Process</h2>
+        </div>
+
+        <!-- Right Content -->
+        <div class="right-content">
+        
+
+            <ul class="criteria-list">
+                <li><span>✔</span> <strong>Initial Consultation:</strong> We begin by understanding your specific goals and unique financial needs.</li>
+                <li><span>✔</span> <strong> Document Collection:</strong> We guide you through gathering necessary files, including ITR sets, bank statements,
+and business certificates</li>
+                <li><span>✔</span> <strong>Application Processing:</strong>Our experts handle the heavy lifting, leveraging our network of 50+ partners to fast
+track your application.</li>
+                <li><span>✔</span> <strong>Approval & Disbursement:</strong>  We manage the final hurdles to ensure your funds are successfully disbursed into
+your account</li>
+                 </ul>
+                </div>
+
+<!-- Left Content -->
+        <div class="left-content">
+            <h2> Application Checklist</h2>
+        </div>
+
+        <!-- Right Content -->
+        <div class="right-content">
+        
+
+            <ul class="criteria-list">
+                <li><span>✔</span> <strong>Financial History:</strong>Full sets of your ITR for the last 2 years.</li>
+                <li><span>✔</span> <strong> .Banking Records:</strong> Bank statements covering the last 12 months.</li>
+                <li><span>✔</span> <strong>Business Credentials:</strong>Certificate of Incorporation (COI) or Business Licenses (BL).</li>
+                <li><span>✔</span> <strong>Audit & Tax Reports: </strong>  Recent audit reports and GSTR-3B/GSTR-1 filings for the last year.</li>
+                 <li><span>✔</span> <strong>Obligation Sheet:</strong>A comprehensive list of your current loans and financial obligations.</li>
+                 </ul>
+                </div>
+
+
+
+            </div>
+</section>
+
+
+
+    <!--
+    <div class="why-grid">
+	 <div class="why-item">
+            <h4>Our Seamless Process</h4>
+            <p>1. Initial Consultation: We begin by understanding your specific goals and unique financial needs.</p>
+<p>2. Document Collection: We guide you through gathering necessary files, including ITR sets, bank statements,
+and business certificates</p>
+<p>3. Application Processing: Our experts handle the heavy lifting, leveraging our network of 50+ partners to fast
+track your application.</P>
+<p>4. Approval & Disbursement: We manage the final hurdles to ensure your funds are successfully disbursed into
+your account</p>
+			
+        </div>
+		 <div class="why-item">
+            <h4> Application Checklist</h4>
+            <p>1.Financial History: Full sets of your ITR for the last 2 years.</p>
+<p>2.Banking Records: Bank statements covering the last 12 months.</p>
+<p>3.Business Credentials: Certificate of Incorporation (COI) or Business Licenses (BL).</p>
+<p>4.Audit & Tax Reports: Recent audit reports and GSTR-3B/GSTR-1 filings for the last year.</p>
+<p>5.Obligation Sheet: A comprehensive list of your current loans and financial obligations.</p>
+        </div>
+		    </div>
+</section>-->
+
+
+
+
+<!-- FOOTER -->
+<style>
+footer {
+    background: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: auto;
+    padding: 40px 20px;
+    gap: 30px;
+}
+
+.footer-inner div {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-inner h3, .footer-inner h4 {
+    color:  #3b58a4 ;
+    margin-bottom: 15px;
+}
+
+.footer-inner p, .footer-inner li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-inner ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-inner ul li {
+    margin-bottom: 10px;
+}
+
+.footer-inner ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-inner ul li a:hover {
+    color: #3b58a4 ;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    font-size: 13px;
+    border-top: 1px solid #333;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .footer-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-inner div {
+        margin-bottom: 25px;
+    }
+}
+</style>
+
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h3>Yash Finance Solutions</h3>
+      <p>Your trusted partner for loans and financial growth.</p>
+      <p>📞 +91 88504 29320</p>
+      <p>📍 Malad West, Mumbai</p>
+    </div>
+    <div>
+      <h4>Pages</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cases.html">Our Cases</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Disclaimer</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Working Hours</h4>
+      <p>🕘 8 AM – 7 PM</p>
+      <p>Monday – Saturday</p>
+      <p>✔ 24/7 Call Support</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Yash Finance Solutions. All Rights Reserved.
+  </div>
+</footer>
+
+		
+</body>
+</html>
+
+
